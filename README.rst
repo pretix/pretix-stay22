@@ -1,5 +1,5 @@
 Stay22 Hotel map
-==========================
+================
 
 This is a plugin for `pretix`_. 
 
