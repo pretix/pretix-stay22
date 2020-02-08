@@ -12,6 +12,7 @@ class PluginApp(PluginConfig):
     class PretixPluginMeta:
         name = ugettext_lazy('Stay22 Hotel map')
         author = 'Raphael Michel'
+        category = 'INTEGRATION'
         description = ugettext_lazy('This plugin allows to integrate the Stay22 hotel map into your pretix shop')
         visible = True
         version = '1.0.0'
