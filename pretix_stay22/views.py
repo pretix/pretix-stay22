@@ -7,7 +7,7 @@ from django.conf import settings
 from django.core.validators import RegexValidator
 from django.http import Http404, HttpResponse
 from django.urls import reverse
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.views.decorators.cache import cache_page
 from pretix.base.forms import SettingsForm
 from pretix.base.models import Event

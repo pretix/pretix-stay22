@@ -1,4 +1,4 @@
-from django.utils.translation import ugettext_lazy
+from django.utils.translation import gettext_lazy
 try:
     from pretix.base.plugins import PluginConfig
 except ImportError:
@@ -10,10 +10,10 @@ class PluginApp(PluginConfig):
     verbose_name = 'Stay22 Hotel map'
 
     class PretixPluginMeta:
-        name = ugettext_lazy('Stay22 Hotel map')
+        name = gettext_lazy('Stay22 Hotel map')
         author = 'Raphael Michel'
         category = 'INTEGRATION'
-        description = ugettext_lazy('This plugin allows to integrate the Stay22 hotel map into your pretix shop')
+        description = gettext_lazy('This plugin allows to integrate the Stay22 hotel map into your pretix shop')
         visible = True
         version = '1.0.1'
         compatibility = "pretix>=3.2.999"
