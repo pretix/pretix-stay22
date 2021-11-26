@@ -53,7 +53,8 @@ def order_info(sender: Event, order: Order, **kwargs):
                 order
             )))
         }
-
+    ctx['click_to_load'] = sender.settings.get("cookie_consent")
+    ctx['privacy_url'] = sender.settings.get("privacy_url")
     template = get_template('pretix_stay22/order_info.html')
     return template.render(ctx)
 
