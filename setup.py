@@ -25,7 +25,7 @@ cmdclass = {
 
 setup(
     name='pretix-stay22',
-    version='1.0.2',
+    version='1.1.0',
     description='This plugin allows to integrate the Stay22 hotel map into your pretix shop',
     long_description=long_description,
     url='https://github.com/pretix/pretix-stay22',

@@ -15,7 +15,7 @@ class PluginApp(PluginConfig):
         category = 'INTEGRATION'
         description = gettext_lazy('This plugin allows to integrate the Stay22 hotel map into your pretix shop')
         visible = True
-        version = '1.0.2'
+        version = '1.1.0'
         compatibility = "pretix>=3.2.999"
 
     def ready(self):
