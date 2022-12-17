@@ -3,6 +3,7 @@ from distutils.command.build import build
 
 from django.core import management
 from setuptools import setup, find_packages
+from pretix_stay22 import __version__
 
 
 try:
@@ -25,7 +26,7 @@ cmdclass = {
 
 setup(
     name='pretix-stay22',
-    version='1.1.0',
+    version=__version__,
     description='This plugin allows to integrate the Stay22 hotel map into your pretix shop',
     long_description=long_description,
     url='https://github.com/pretix/pretix-stay22',

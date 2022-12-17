@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import path
 
 from .views import Stay22Settings
 
 urlpatterns = [
-    url(r'^control/event/(?P<organizer>[^/]+)/(?P<event>[^/]+)/stay22/settings$',
+    path('control/event/<str:organizer>/<str:event>/stay22/settings',
         Stay22Settings.as_view(), name='settings'),
 ]
