@@ -7,6 +7,7 @@ except ImportError:
 
 
 class PluginApp(PluginConfig):
+    default = True
     name = 'pretix_stay22'
     verbose_name = 'Stay22 Hotel map'
 
