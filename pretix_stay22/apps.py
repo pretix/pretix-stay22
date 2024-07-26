@@ -21,7 +21,7 @@ class PluginApp(PluginConfig):
         description = gettext_lazy("Integrate the Stay22 hotel map into your shop")
         visible = True
         version = __version__
-        compatibility = "pretix>=3.2.999"
+        compatibility = "pretix>=2024.7.0.dev0"
 
     def ready(self):
         from . import signals  # NOQA
