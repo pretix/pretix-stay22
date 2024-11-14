@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-21 18:36+0200\n"
-"PO-Revision-Date: 2024-11-14 04:00+0000\n"
+"PO-Revision-Date: 2024-11-14 20:00+0000\n"
 "Last-Translator: CVZ-es <damien.bremont@casadevelazquez.org>\n"
 "Language-Team: French <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-stay22/fr/>\n"
@@ -27,29 +27,35 @@ msgstr "Plan de l'hôtel Stay22"
 msgid ""
 "This plugin allows to integrate the Stay22 hotel map into your pretix shop"
 msgstr ""
+"Ce plugin permet d'intégrer la carte des hôtels Stay22 dans votre boutique "
+"pretix"
 
 #: pretix_stay22/signals.py:92
 msgid "Stay22"
-msgstr ""
+msgstr "Stay22"
 
 #: pretix_stay22/templates/pretix_stay22/order_info.html:6
 msgid "Book a hotel"
-msgstr ""
+msgstr "Réserver un hôtel"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:5
 msgid "Stay22 settings"
-msgstr ""
+msgstr "Paramètres de Stay22"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:8
 msgid ""
 "Our Stay22 integration works out of the box. You don't need to do anything!"
 msgstr ""
+"L'intégration de Stay22 est prête à l'emploi. Vous n'avez rien à faire !"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:12
 msgid ""
 "However, if you are a Stay22 partner yourself and want to customize things "
 "further, you can enter your own affiliate ID or even a full embed link here."
 msgstr ""
+"Cependant, si vous êtes vous-même un partenaire de Stay22 et que vous "
+"souhaitez personnaliser davantage les possibilités, vous pouvez entrer votre "
+"propre identifiant d'affilié ou même un lien d'intégration complet ici."
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:24
 msgid "Save"
@@ -57,8 +63,8 @@ msgstr "Sauvegarder"
 
 #: pretix_stay22/views.py:21
 msgid "Stay22 AID"
-msgstr ""
+msgstr "Stay22 AID"
 
 #: pretix_stay22/views.py:26
 msgid "Stay22 Embed Link"
-msgstr ""
+msgstr "Lien d'intégration Stay22"
