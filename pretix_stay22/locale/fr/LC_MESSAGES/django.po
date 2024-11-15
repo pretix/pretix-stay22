@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-21 18:36+0200\n"
-"PO-Revision-Date: 2024-11-14 20:00+0000\n"
+"PO-Revision-Date: 2024-11-15 20:00+0000\n"
 "Last-Translator: CVZ-es <damien.bremont@casadevelazquez.org>\n"
 "Language-Team: French <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-stay22/fr/>\n"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:24
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Enregistrer"
 
 #: pretix_stay22/views.py:21
 msgid "Stay22 AID"
