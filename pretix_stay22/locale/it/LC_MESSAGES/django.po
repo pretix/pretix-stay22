@@ -8,55 +8,63 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-21 18:36+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-12-19 00:00+0000\n"
+"Last-Translator: Daniel Branda <daniel.branda.ad@gmail.com>\n"
+"Language-Team: Italian <https://translate.pretix.eu/projects/pretix/pretix-"
+"plugin-stay22/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15\n"
 
 #: pretix_stay22/__init__.py:13
 msgid "Stay22 Hotel map"
-msgstr ""
+msgstr "Mappa dell'hotel Stay22"
 
 #: pretix_stay22/__init__.py:15
 msgid ""
 "This plugin allows to integrate the Stay22 hotel map into your pretix shop"
 msgstr ""
+"Questo plugin consente di integrare la mappa degli hotel Stay22 nel tuo "
+"negozio pretix."
 
 #: pretix_stay22/signals.py:92
 msgid "Stay22"
-msgstr ""
+msgstr "Stay22"
 
 #: pretix_stay22/templates/pretix_stay22/order_info.html:6
 msgid "Book a hotel"
-msgstr ""
+msgstr "Prenota un hotel"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:5
 msgid "Stay22 settings"
-msgstr ""
+msgstr "Impostazioni Stay22"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:8
 msgid ""
 "Our Stay22 integration works out of the box. You don't need to do anything!"
 msgstr ""
+"La nostra integrazione Stay22 funziona immediatamente. Non devi fare nulla!"
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:12
 msgid ""
 "However, if you are a Stay22 partner yourself and want to customize things "
 "further, you can enter your own affiliate ID or even a full embed link here."
 msgstr ""
+"Tuttavia, se sei un partner Stay22 e desideri personalizzare ulteriormente "
+"le impostazioni, puoi inserire qui il tuo ID affiliato o anche un link di "
+"incorporamento completo."
 
 #: pretix_stay22/templates/pretix_stay22/settings.html:24
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: pretix_stay22/views.py:21
 msgid "Stay22 AID"
-msgstr ""
+msgstr "Stay22 AID"
 
 #: pretix_stay22/views.py:26
 msgid "Stay22 Embed Link"
-msgstr ""
+msgstr "Stay22 Link incorporato"
