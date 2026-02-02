@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-21 18:36+0200\n"
-"PO-Revision-Date: 2026-01-30 22:00+0000\n"
+"PO-Revision-Date: 2026-02-02 19:00+0000\n"
 "Last-Translator: Ruud Hendrickx <ruud@leckxicon.eu>\n"
 "Language-Team: Dutch <https://translate.pretix.eu/projects/pretix/pretix-"
 "plugin-stay22/nl/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: pretix_stay22/__init__.py:13
 msgid "Stay22 Hotel map"
-msgstr "Stay22 Hotelkaart"
+msgstr "Stay22-hotelkaart"
 
 #: pretix_stay22/__init__.py:15
 msgid ""
